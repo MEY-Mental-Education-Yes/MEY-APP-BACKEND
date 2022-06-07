@@ -8,4 +8,7 @@ module.exports = function(app) {
 
     app.route('/tampil')
         .get(myjson.showallsonglist);
+    
+    app.route('/tampil/:Category')
+    .get(myjson.showwithcategory);
 }
