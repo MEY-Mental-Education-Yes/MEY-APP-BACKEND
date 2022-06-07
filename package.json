@@ -1,0 +1,24 @@
+{
+  "name": "apprestapi",
+  "version": "1.0.0",
+  "description": "Aplikasi RestAPI Song List ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEY-Mental-Education-Yes/apprestapi.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "andrejuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEY-Mental-Education-Yes/apprestapi/issues"
+  },
+  "homepage": "https://github.com/MEY-Mental-Education-Yes/apprestapi#readme"
+}
