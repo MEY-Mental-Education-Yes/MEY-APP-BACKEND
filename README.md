@@ -23,9 +23,44 @@ Project is Created with :
 </ol>
 
 ### Deploy To GCP
-Follow the Step to run on GCP, Using NPM
+Follow the Step to run on GCP
 
+> Clone Repository
 ``` bash
 # Clone Your Repository 
 $ git clone https://github.com/MEY-Mental-Education-Yes/MEY-APP-BACKEND.git
 
+#Go to Directory
+$ cd MEY-APP-BACKEND
+```
+
+> Configure Database
+```
+- Open koneksi.js
+- Change Configuration With Your Database (This App Using MySQL) : 
+
+  host:'CHANGE_WITH_YOUR_DATABASE_IP',
+  port: 'CHANGE_WITH_MYSQL_PORT',
+  user: 'CHANGE_WITH_YOUR_USERNAME',
+  password: 'CHANGES_WITH_YOUR_PASSWORD',
+  database: 'CHANGE_WITH_YOUR_DATABASE_NAME'
+```
+> Configure Node.js
+``` bash
+# Reinstall The node_modules
+$ npm install
+
+# Test your App (Don't Forget Change Your Port App to 8080 because App Engine using Port 8080)
+$ npm start
+```
+
+> Deploy API to Google Cloud App Engine
+```
+- Before Deploy You Can Change The app.yaml Configuration If You Have Spesific Configuration
+
+# Initialize your SDK
+$ gcloud init
+
+# Deploy to Google Cloud App Engine
+$ gcloud app deploy
+```
