@@ -27,4 +27,5 @@ Follow the Step to run on GCP, Using NPM
 
 ``` bash
 # Clone Your Repository 
-$ git clone https://github.com/Severity-Prediction-Covid19/Severity-Prediction-Backend.git
+$ git clone https://github.com/MEY-Mental-Education-Yes/MEY-APP-BACKEND.git
+
