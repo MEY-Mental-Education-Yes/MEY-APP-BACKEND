@@ -5,7 +5,7 @@ const conn = mysql.createConnection({
     host:'CHANGE_WITH_YOUR_DATABASE_IP',
     port: 'CHANGE_WITH_MYSQL_PORT',
     user: 'CHANGE_WITH_YOUR_USERNAME',
-    password: 'CHANGES_WITH_YOUR_PASSWORD',
+    password: 'CHANGE_WITH_YOUR_PASSWORD',
     database: 'CHANGE_WITH_YOUR_DATABASE_NAME'
 });
 
