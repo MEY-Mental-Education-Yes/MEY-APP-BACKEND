@@ -23,3 +23,8 @@ Project is Created with :
 </ol>
 
 ### Deploy To GCP
+Follow the Step to run on GCP, Using NPM
+
+``` bash
+# Clone Your Repository 
+$ git clone https://github.com/Severity-Prediction-Covid19/Severity-Prediction-Backend.git
