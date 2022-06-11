@@ -54,7 +54,7 @@ $ npm install
 $ npm start
 ```
 
-> Deploy API to Google Cloud App Engine
+> Deploy APP to Google Cloud App Engine
 ```
 - Before Deploy You Can Change The app.yaml Configuration If You Have Spesific Configuration
 
