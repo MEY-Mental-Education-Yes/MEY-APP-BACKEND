@@ -15,7 +15,7 @@ Project is Created with :
   <li>Google Cloud Storage</li>
 </ul>
 
-### Crete Google Cloud SQL (MYSQL)
+### Create Google Cloud SQL (MYSQL)
 <ol>
   <li>Create and setup your Cloud SQL</li>
   <li> Open Folder Database </li>
