@@ -2,11 +2,11 @@ var mysql = require('mysql');
 
 //buat koneksi database
 const conn = mysql.createConnection({
-    host:'localhost',
-    port: '3307',
-    user: 'root',
-    password: '',
-    database: 'project_mey_db'
+    host:'CHANGE_WITH_YOUR_DATABASE_IP',
+    port: 'CHANGE_WITH_MYSQL_PORT',
+    user: 'CHANGE_WITH_YOUR_USERNAME',
+    password: 'CHANGES_WITH_YOUR_PASSWORD',
+    database: 'CHANGE_WITH_YOUR_DATABASE_NAME'
 });
 
 conn.connect((err)=> {
